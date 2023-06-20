@@ -1,0 +1,15 @@
+.done-list-container {
+    margin-bottom: 32px;
+  }
+  
+  .done-list-container h2 {
+      font-weight: bold;
+  }
+
+  .done-list-container li{
+    background-color: azure;
+    border: 1px solid #eee;
+    padding: 16px;
+    margin-top: 8px;
+    border-radius: 8px;
+  }

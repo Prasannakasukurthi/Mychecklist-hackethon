@@ -1,0 +1,10 @@
+<form class="taskForm">
+    <input
+      type="text"
+      name="taskName"
+      id="taskName"
+      placeholder="Add your check list here"
+      [(ngModel)]="taskInputVal"
+    />
+    <button type="button" (click)="onAddClicked()" background-color: #2F80ED>Add</button>
+  </form>
